@@ -1,0 +1,42 @@
+# Local .terraform directories and files
+**/.terraform/*
+.terraform*
+!.terraformrc
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Terraform lock file
+.terraform.lock.hcl
+
+# Personal / secret variables
+*.tfvars
+*.auto.tfvars
+*.auto.tfvars.json
+personal.tfvars
+dev.tfvars
+stage.tfvars
+prod.tfvars
+test.tfvars
+
+# Service account keys, credentials и любые секреты
+*.json
+*.pem
+*.key
+*.crt
+*.p12
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor temporary files
+*~
+.#*
+*.swp
